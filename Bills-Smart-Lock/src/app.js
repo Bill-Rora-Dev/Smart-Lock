@@ -26,7 +26,9 @@ app.use(
 
 app.setHandler({
     LAUNCH() {
-        return this.toIntent('HelloWorldIntent');
+        this.$speech.addText ('Welcome to Rora.  Would you like to lock your door? Check the status of your door? or unlock your door?')
+        this.$reprompt.addText ('Please say, lock my door, what is the status of my door, or unlock my door to control your door lock.')
+        return this.ask(this.$speech, this.$reprompt);
     },
 
     HelloWorldIntent() {
