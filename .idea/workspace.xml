@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8140fc6-94e0-4325-a23e-54333ea81f0f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Bills-Smart-Lock/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Bills-Smart-Lock/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bills-Smart-Lock/test/sample.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bills-Smart-Lock/models/en-US.json" beforeDir="false" afterPath="$PROJECT_DIR$/Bills-Smart-Lock/models/en-US.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bills-Smart-Lock/test/launch.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/Bills-Smart-Lock/test/lockIntent.test.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,20 +17,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bills-Smart-Lock/test/launch.test.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Bills-Smart-Lock/test/lockIntent.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" selection-start-line="23" selection-end-line="24" selection-end-column="132" />
+            <state relative-caret-position="161">
+              <caret line="13" column="106" lean-forward="true" selection-start-line="13" selection-start-column="106" selection-end-line="13" selection-end-column="106" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bills-Smart-Lock/src/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
-              <caret line="30" column="54" lean-forward="true" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
+              <caret line="30" column="54" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bills-Smart-Lock/models/en-US.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -44,6 +54,8 @@
       <list>
         <option value="$PROJECT_DIR$/Bills-Smart-Lock/test/launch.test.js" />
         <option value="$PROJECT_DIR$/Bills-Smart-Lock/src/app.js" />
+        <option value="$PROJECT_DIR$/Bills-Smart-Lock/models/en-US.json" />
+        <option value="$PROJECT_DIR$/Bills-Smart-Lock/test/lockIntent.test.js" />
       </list>
     </option>
   </component>
@@ -79,6 +91,12 @@
               <item name="Smart-Lock" type="b2602c69:ProjectViewProjectNode" />
               <item name="Smart-Lock" type="462c0819:PsiDirectoryNode" />
               <item name="Bills-Smart-Lock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Smart-Lock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Smart-Lock" type="462c0819:PsiDirectoryNode" />
+              <item name="Bills-Smart-Lock" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Smart-Lock" type="b2602c69:ProjectViewProjectNode" />
@@ -130,21 +148,20 @@
       <option name="presentableId" value="Default" />
       <updated>1565186307697</updated>
       <workItem from="1565186308883" duration="685000" />
-      <workItem from="1565269153020" duration="2162000" />
+      <workItem from="1565269153020" duration="4062000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2847000" />
+    <option name="totallyTimeSpent" value="4747000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="215" y="25" width="1415" height="925" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25322813" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25322813" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32893157" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32893157" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
@@ -167,17 +184,24 @@
     <entry file="file://$PROJECT_DIR$/Bills-Smart-Lock/test/sample.test.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bills-Smart-Lock/test/launch.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="24" selection-end-column="132" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Bills-Smart-Lock/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="30" column="54" lean-forward="true" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
+          <caret line="30" column="54" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bills-Smart-Lock/models/en-US.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bills-Smart-Lock/test/lockIntent.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="13" column="106" lean-forward="true" selection-start-line="13" selection-start-column="106" selection-end-line="13" selection-end-column="106" />
         </state>
       </provider>
     </entry>
