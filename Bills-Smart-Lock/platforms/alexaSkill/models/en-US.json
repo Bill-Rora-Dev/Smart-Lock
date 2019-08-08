@@ -2,7 +2,47 @@
 	"interactionModel": {
 		"languageModel": {
 			"invocationName": "rora",
-			"types": [],
+			"types": [
+				{
+					"name": "lockStatusType",
+					"values": [
+						{
+							"id": null,
+							"name": {
+								"value": "lock",
+								"synonyms": [
+									"lock it",
+									"secure",
+									"encrypt",
+									"locked",
+									"close",
+									"hide",
+									"safe",
+									"close the lock",
+									"close the door"
+								]
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "unlock",
+								"synonyms": [
+									"unlock it",
+									"unsecure",
+									"decrypt",
+									"unlocked",
+									"open",
+									"unhide",
+									"reveal",
+									"open the lock",
+									"open the door"
+								]
+							}
+						}
+					]
+				}
+			],
 			"intents": [
 				{
 					"name": "HelloWorldIntent",
@@ -13,17 +53,24 @@
 					]
 				},
 				{
-					"name": "MyNameIsIntent",
+					"name": "LockIntent",
 					"samples": [
-						"{name}",
-						"my name is {name}",
-						"i am {name}",
-						"you can call me {name}"
+						"{lockStatus}",
+						"{lockStatus} the door",
+						"please {lockStatus} the door",
+						"make the door {lockStatus}",
+						"{lockStatus} my door",
+						"{lockStatus} this door",
+						"can you {lockStatus} it",
+						"can you {lockStatus} the door",
+						"{lockStatus} the lock",
+						"please {lockStatus} the lock",
+						"{lockStatus} it up"
 					],
 					"slots": [
 						{
-							"name": "name",
-							"type": "AMAZON.US_FIRST_NAME"
+							"name": "lockStatus",
+							"type": "lockStatusType"
 						}
 					]
 				},

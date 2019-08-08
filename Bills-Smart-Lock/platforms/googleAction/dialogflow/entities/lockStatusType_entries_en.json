@@ -1,0 +1,32 @@
+[
+	{
+		"value": "lock",
+		"synonyms": [
+			"lock",
+			"lock it",
+			"secure",
+			"encrypt",
+			"locked",
+			"close",
+			"hide",
+			"safe",
+			"close the lock",
+			"close the door"
+		]
+	},
+	{
+		"value": "unlock",
+		"synonyms": [
+			"unlock",
+			"unlock it",
+			"unsecure",
+			"decrypt",
+			"unlocked",
+			"open",
+			"unhide",
+			"reveal",
+			"open the lock",
+			"open the door"
+		]
+	}
+]
